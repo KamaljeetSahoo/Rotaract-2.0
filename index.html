@@ -1,9 +1,136 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/hallooou.css" rel="stylesheet">
+
+    <link href="assets/css/plugins/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/plugins/owl.theme.css" rel="stylesheet">
+    <link href="assets/css/plugins/owl.transitions.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.css" rel="stylesheet">
+    <link href="assets/css/plugins/magnific-popup.css" rel="stylesheet">
+    <link href="assets/css/plugins/jquery.mb.YTPlayer.min.css" rel="stylesheet">
+
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+
 	<title>Rotaract 2.0</title>
 </head>
-<body>
-	<a href="team.html">go to the team page</a>
+<body id="page-top">
+
+            <!-- Navigation -->
+            <nav class="navbar navbar-custom navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header pull-left">
+                        <a class="navbar-brand page-scroll" href="#page-top">
+                            <!-- replace with your brand logo/text -->
+                            <span class="brand-logo"><img src="assets/images/rota.png" onerror="this.src='assets/img/rota.png'; this.onerror=null;" alt="" title="" class="img-responsive"></span>
+                        </a>
+                    </div>
+                    <div class="main-nav pull-right">
+                        <div class="button_container toggle">
+                            <span class="top"></span>
+                            <span class="middle"></span>
+                            <span class="bottom"></span>
+                        </div>
+                    </div>
+                    <div class="overlay" id="overlay">
+                        <nav class="overlay-menu">
+                            <ul>
+                                <li><a href="#about">About us</a></li>
+                                <li><a href="team.html">Our Team</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="#contact">Contact us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div><!-- /.container -->
+            </nav>
+
+    <!-- ==============================HEADER============================== -->
+
+    <header id="intro-carousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('assets/img/bg-masthead.jpg');"></div>
+            </div>
+            <div class="carousel-caption">
+                <h1 class="wow animated slideInDown">Rotaract@NITRKL</h1>
+                <p class="intro-text wow animated slideInUp">Rotaract is a service club for students of National Institute of Technology,Rourkela who are dedicated to the community and international service. It is one of the oldest clubs in NIT Rourkela which is the youth wing of Rotary International, which is an international service organization whose stated purpose is to bring together business and professional leaders in order to provide humanitarian services, encourage high ethical standards in all vocations, and to advance goodwill and peace around the world. It is a non-political and non-sectarian organization open to all people regardless of race, color, creed, religion, gender, or political preference.. The members work together for the eradication of various social and management skills by organizing and participating in various social events.</p>
+            </div>
+            <div class="overlay-detail"></div>
+        </div>
+    </header>
+
+
+   <!-- =============================ABOUT============================ -->
+   
+
+<!-- About Section -->
+            <section id="about" class="about content-section alt-bg-light wow fadeInUp" data-wow-offset="10">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>ALL ABOUT ROTARACT</h2>
+                            
+                            <p>Rotaract (which stands for Rotary in Action) is a Rotary-sponsored service club for young men and women (ages 18 to 30). Rotaract clubs are either community or university based, and they are sponsored by a local Rotary club. This makes them true "partners in service". The first Rotaract club was the Rotaract Club of North Charlotte in North Carolina, founded on March 13, 1968. Since then, Rotaract has grown into one of Rotary's most significant and fastest-growing service programs, with more than 9,723 clubs in about 170 countries and geographical areas comprised of over 207,690 members.Rotaract clubs are part of a global effort to bring peace and international understanding to the world. This effort starts at the community level but knows no limits in its outreach. Rotaractors have access to the many resources of Rotary International (RI) and The Rotary Foundation. Rotary International provides the administrative support that helps Rotaract clubs thrive.Rotaract is divided into districts around the world. These districts follow the Rotary-structured districts. At the district level, the District Rotaract Representative serves as the leader and representative of all clubs in their respective district to Rotary International. Each Rotaract club itself is structured differently. The Standard Club Constitution states that there is a president, vice president, secretary, and treasurer, with additional officers provided in the by-laws.</p>
+
+
+
+                        </div><!-- /.col-md-6 -->
+                        
+                        <div class="col-md-6">
+                            <!-- Display image -->
+                            <img src="assets/img/3.jpeg" class="img-responsive">
+                            <!-- Optional video embed code -->
+                            <!-- <div class="embed-responsive embed-responsive-16by9">
+                                <iframe src="https://player.vimeo.com/video/132613118?title=0&amp;byline=0&amp;portrait=1" class="embed-responsive-item" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            </div> -->
+                        </div><!-- /.col-md-6 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </section><!-- /.section -->
+
+
+<!-- =================MAPS============== -->
+<div class="container-fluid buffer-forty-top">
+    <div class="row">
+        <section id="cd-google-map no-bottom-pad">
+            <div id="google-container"></div>
+            <div id="cd-zoom-in"></div>
+            <div id="cd-zoom-out"></div>
+        </section>
+    </div><!-- /.row -->
+</div><!-- /.container-fluid -->
+
+
+	<!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/js/bootstrap.js"></script>
+
+	<script src="assets/js/plugins/wow.min.js"></script>
+    <script src="assets/js/plugins/owl.carousel.min.js"></script>
+    <script src="assets/js/plugins/jquery.parallax-1.1.3.js"></script>
+    <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/plugins/jquery.mb.YTPlayer.min.js"></script>
+    <script src="assets/js/plugins/jquery.countTo.js"></script>
+    <script src="assets/js/plugins/jquery.inview.min.js"></script>
+    <script src="assets/js/plugins/pace.min.js"></script>
+    <script src="assets/js/plugins/jquery.easing.min.js"></script>
+    <script src="assets/js/plugins/jquery.validate.min.js"></script>
+    <script src="assets/js/plugins/additional-methods.min.js"></script> 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoVKfEihX__NdMwdDysA6Vve6PE9Ierj4"></script>
+
+    <script src="assets/js/hallooou.js"></script>
+
+
 </body>
 </html>
